@@ -1,0 +1,26 @@
+* Robotic collision detecting 
+
+** Creating a Fuzzy Inference System (FIS) steps
+1. Specify the problem and define linguistic variables.
+2. Determine fuzzy sets.
+3. Elicit and construct fuzzy rules.
+4. Encode the fuzzy sets, fuzzy rules and procedures to perform fuzzy inference into the expert system.
+5. Evaluate and tune the system.
+
+** Linguistic variables
+1. *Status*: ok, warning, crashed. 
+   - OK: 0.0 - 0.6
+   - Warning: 0.5 - 0.9
+   - Crashed: 0.7 - 1.0
+
+2. *Obstacle density*: sparse, moderate, dense.
+   - Sparse: 0.7 - 1.0
+   - Moderate: 0.4 - 0.7
+   - Dense: 0.0 - 0.4
+
+3. *Speed*: slow, moderate, fast
+   - Fast: 0.7 - 1.0
+   - Moderate: 0.2 - 0.8
+   - Slow: 0.0 - 0.3
+     
+
