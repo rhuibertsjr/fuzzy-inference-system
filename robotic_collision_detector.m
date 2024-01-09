@@ -1,7 +1,7 @@
 ### robotic_collision_detector.m - HBO-ICT: Intelligent Systems assignment n. 2
 ##
 ## Author: Rene Huiberts
-## Date:  06 - 01 - 2024
+## Date:  09 - 01 - 2024
 ##
 ## Dependencies
 ##   - pkg load fuzzy-logic-toolkit
