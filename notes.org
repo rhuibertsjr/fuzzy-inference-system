@@ -1,3 +1,4 @@
+
 * Robotic collision detecting 
 
 ** Creating a Fuzzy Inference System (FIS) steps
@@ -8,6 +9,7 @@
 5. Evaluate and tune the system.
 
 ** Linguistic variables
+
 1. *Status*: ok, warning, crashed. 
    - OK: 0.0 - 0.6
    - Warning: 0.5 - 0.9
@@ -22,5 +24,20 @@
    - Fast: 0.7 - 1.0
    - Moderate: 0.2 - 0.8
    - Slow: 0.0 - 0.3
-     
 
+*** Other possibilities
+
+1. *Distance*: far, medium, close.
+   - Far: 0.7 - 1.0
+   - Medium: 0.4 - 0.7
+   - Close: 0.0 - 0.4
+
+2. *Direction*: left, right, straight.
+   - Left: 0.7 - 1.0
+   - Straight: 0.4 - 0.7
+   - Right: 0.0 - 0.4
+
+3. *Terrain type*: smooth, uneven, rough.
+   - Rough: 0.5 - 1.0
+   - Uneven: 0.2 - 0.7
+   - Smooth: 0.0 - 0.2
