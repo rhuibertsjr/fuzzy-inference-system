@@ -30,11 +30,17 @@ fis = addmf(fis, "output", 1, "warning", "constant", 0.7);
 fis = addmf(fis, "output", 1, "crashed", "constant", 0.9);
 
 ## rhjr: visualize membership functions
-plotmf (fis, "input",  1);
-plotmf (fis, "input",  2);
-plotmf (fis, "output", 1);
+##plotmf (fis, "input",  1);
+##plotmf (fis, "input",  2);
+##plotmf (fis, "output", 1);
+
+## rhjr: adding rules to the system.
+##   - [input1_index, input2_index, output_index   weight if/then]
+fis = addrule(fis, [1 1 1  1 1])
+fis = addrule(fis, [3 3 3  1 1])
+showrule (fis);
 
 ### References
-##    -  
+##    - https://octave.sourceforge.io/fuzzy-logic-toolkit/function/addrule.html
 ##
 ### robotic_collision_detector.m ends here.
